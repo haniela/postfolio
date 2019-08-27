@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta  charset="UTF-8">
+        <meta name="description" content="une page base sur uniquement sur html">
+        <meta name="keywords" content="pur code html sur la page">
+        <title>Postfolio</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+        <style>
+            body{
+                font-family: 'Montserrat', sans-serif;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;                                        
+                }
+           nav li {
+                 float: right;
+            }
+            #section1 {
+                background: radial-gradient(red, #0000ff );
+                background-image: url("img/computer.jpeg") ;
+                padding-left: 100px;
+                color: white;
+            }
+            nav li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 15px 20px;
+                 text-decoration: none;
+                } 
+            
+            button {
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+                background-color: blue;
+                color:white;
+                border: 2px solid #4CAF50; /* Green */
+                border-radius: 4px;
+                padding: 10px 24px;
+                font-size: 16px;
+            }
+
+            button:hover {
+                background-color:rgb(143, 201, 143); 
+                color: white;
+            }
+            .but{
+                padding: 5px 2px;
+                border: 1px solid white;
+                background-color:gray;
+                font-size: 16px;
+                margin: 5px;
+            }
+            #section2{
+                background-color: floralwhite;
+                display: flex;
+                justify-content:space-evenly;
+                padding: 20px;
+                
+            }
+
+            #section3{
+                background-color:rgb(3, 9, 41) ;
+                padding-left: 100px;                             
+            }
+            td{
+                text-align: center;
+                width: 300px;
+                   height: 100px;
+                   border: 1px solid ;
+                   box-sizing: border-box;
+                   background-color: white;
+            }
+
+        </style>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <section id="section1">
+                <nav>
+                    <ul>
+                        <li> <button class="but"><a href="#">Contact me</a></button> </li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">About me</a></li>
+                    </ul>
+                </nav>
+               
+                    <div>
+                        <!-- <img src="" alt="woman developer" width="1280" height="400"> -->
+                           <h6>Hey, what's up ?</h6>
+                           <h2>I'm Eudoxie, <br> a Software Developer</h2>
+                           <button>Contact me</button>
+                           <button type="submit">About me</button>
+                    </div>     <br><br>
+        </section>
+
+        <section id="section2">
+                    <div > <br><br>
+                        <p>
+                           I am 19 year old self taugh software developer based in Cotonou, Benin. <br><br><br>
+                           I've worked with some agencies over the years <br><br><br>
+                           I specialize in developping web apps, my core skills are 
+                           <strong>Javascript, PHP, HTML, CSS</strong> and some <em>Framework</em> like 
+                           <strong>Laravel, Jigsaw.</strong> 
+                           <br>
+                           Want to know more? Drop me a line. <br>
+                           <a href="#">eudoxiesegla@gmail.com</a> <br><br>
+    
+                           Follow me on. <br><br>
+                           <i class="fas fa-phone"></i>
+                           <i class="fas fa-facebook"></i>
+                           <i class="fas fa-mailbox"></i>
+                           <i class="fas fa-envelope"></i>
+                           <i class="fas fa-bars"></i>
+                        </p> <br> <br> <br>
+                    </div>
+                    <div>
+                        <img src="img/wtmdev.jpeg" alt="photo de moi" width="200" height="250" padding-top="20px" border-radius= "4px">
+                    </div> 
+        </section>
+
+        <section id="section3">
+                <div> <br> <br>
+                   <table>
+                       <tr><td> <br> Project <br> <br> </td> <td> <br> Project <br><br> </td> <td> <br> Project <br> <br> </td></tr>
+                       <tr><td> <br> Project <br> <br> </td> <td> <br> Project <br><br> </td> <td> <br> Project <br> <br> </td></tr>
+                   </table>
+                </div>  <br> <br>
+        </section>
+        
+    </body>
+</html>
